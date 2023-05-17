@@ -5,12 +5,8 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-body {
-  padding-top: 30px;
-}
-
 nav {
-  position: fixed !important;
+  top: 0;
   margin-bottom: 30px;
   width: 100%;
 }
@@ -39,7 +35,7 @@ h2 {
 
 h3 {
   font-size: 24px;
-  opacity: 0.7;
+  color: #626669;
 }
 
 p {
