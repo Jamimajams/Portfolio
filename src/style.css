@@ -4,9 +4,18 @@
   --tertiary-color: #f8f9fa;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-.container {
-  max-width: 600px;
+
+@media (mmax-width: 576px) {
+  .greeting {
+    display: none;
+  }
 }
+
+.container {
+  max-width: 900px;
+  margin: 0px 20px 0px 20px;
+}
+
 nav {
   top: 0;
   margin-bottom: 30px;
